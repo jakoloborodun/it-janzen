@@ -1,0 +1,154 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #151922;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #fff;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.profession {
+    font-size: 1.2rem;
+    color: #f1f1f1;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.social-links a {
+    color: #f1f1f1;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ffd700;
+}
+
+/* About section */
+.about {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Skills section */
+.skills {
+    background-color: #f1f5f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #202124;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .profile-photo {
+        width: 120px;
+        height: 120px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .profession {
+        font-size: 1rem;
+    }
+
+    .about h2, .skills h2 {
+        font-size: 1.6rem;
+    }
+
+    .skills li {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .profession {
+        font-size: 0.9rem;
+    }
+
+    .about p {
+        font-size: 1rem;
+    }
+}
